@@ -20,7 +20,7 @@ function Room(){
         }
         }>On</button> }
         <br/>
-        <button onClick={()=>{{setLit(false)}}}>Off</button>
+        <button onClick={()=>{setLit(false)}}>Off</button>
         <br/>
         The Room Temperature : {inc}
         <br/>
